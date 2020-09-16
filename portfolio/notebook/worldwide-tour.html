@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+	<meta name="author" content="Wagner Henriquez">
+    <link rel="stylesheet" href="./styles/tour.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Worldwide tour!</title>
+</head>
+<body>
+    <!-- menu hamburguesa -->
+    <nav class="nav">
+        <div class="title">Notebook</div>
+        </nav>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul class="menu-vertical">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./music.html">Music</a></li>
+                        <li><a href="./social-media.html">Social Media</a></li>
+                        <li><a href="#" id="contact">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin menu hamburguesa -->
+    <main>
+    <ul>
+    <li class="span3"><h1>Our</h1></li>
+    <li class="span6" id="home"><h1>Worldwide</h1></li>
+    <li class="span3"><h1>Tour</h1></li>
+    <li class="span5"><h1>Get ready</h1></li>
+    <li class="span2"><p><a href="#sec5"><i class="fas fa-long-arrow-alt-right a11"></i></a></p></li>
+    <li class="span3 height2 img1"><p class="country">brazil feb, 2021</p></li>
+    <li class="span4"><p class="txt">rio de janeiro</p></li>
+    <li class="span3"><p class="ticket">Buy your ticket by clicking in your country or <a href="#">here</a></p></li>
+    <li class="span3"><p class="txt">#america</p></li>
+    <li class="span2"><p class="txt">são paulo</p></li>
+    <li class="span3"><p class="txt">#europe</p></li>
+    <li class="span3"><p class="txt">brasilia</p></li>
+    <li class="span3"><p class="txt">let's go</p></li>
+    <li class="span3 height2 img2"><p class="country">chile, feb 2021</p></li>
+    <li class="span2 height2 sec2"><p class="country">peru, 2021</p></li>
+    <li class="span3 bg1"><p></p></li>
+    <li class="span3 bg2"><p></p></li>
+    <li class="span3"><p class="txt">lima</p></li>
+    <li class="span3 height2 sec1"><p class="country">Canada, 2021</p></li>
+    <li class="span3"><p class="txt">madrid</p></li>
+    <li class="span3"><p class="txt">barcelona</p></li>
+    <li class="span3"><p class="txt">valencia</p></li>
+    <li class="span2"><p class="txt">ontario</p></li>
+    <li class="span3"><p class="txt">toronto</p></li>
+    <li class="span3"><p class="txt">alberta</p></li>
+    <li class="span3 height2 img3"><p class="country">spain, mar 2021</p></li>
+    <li class="span3"><p class="txt">zaragoza</p></li>
+    <li class="span3"><p class="txt">quebec</p></li>
+    <li class="span3"><p class="txt">estambul</p></li>
+    <li class="span3 height2 sec3"><p class="country">italy, mar 2021</p></li>
+    <li class="span2 height2 sec7"><p class="country">turkey, 2021</p></li>
+    <li class="span3"><p class="txt">rome</p></li>
+    <li class="span3"><p><a href="#img5"><i class="fas fa-long-arrow-alt-right a1"></i></a></p></li>
+    <li class="span2"><p class="txt">ankara</p></li>
+    <li class="span3 height2 sec5" id="sec5"><p class="country">estonia, 2021</p></li>
+    <li class="span4"><p class="txt">esmirna</p></li>
+    <li class="span2"><p class="txt">bursa</p></li>
+    <li class="span3 height2 img4"></li>
+    <li class="span4"><p class="txt">tallinn</p></li>
+    <li class="span3"><p class="txt">#thenotebooktour</p></li>
+    <li class="span3"><p class="txt">tokyo</p></li>
+    <li class="span2"><p class="txt">paris</p></li>
+    <li class="span3"><p class="txt">bourges</p></li>
+    <li class="span3"><p class="txt">kyoto</p></li>
+    <li class="span3"><p class="txt">orleans</p></li>
+    <li class="span3 height2 sec4"><p class="country">french, 2021</p></li>
+    <li class="span2 height2 sec6"><p class="country">Japan, 2021</p></li>
+    <li class="span3"><p class="txt">lollapalooza</p></li>
+    <li class="span3"><p class="txt">thank you</p></li>
+    <li class="span3"><p><a href="#home"><i class="fas fa-long-arrow-alt-left a2"></i></a></p></li>
+    <li class="span3 height2 img5" id="img5"><p class="country">germany, 2021</p></li>
+    <li class="span3"><p class="txt">berlin</p></li>
+</ul>
+</main>
+		<!-- contacto modal -->
+		<div class="contact" id="contact2">
+			<div class="close" id="close"><i class="fas fa-times x"></i></div>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" placeholder="Name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" placeholder="Email" required>
+				<label for="option">Subject:</label>
+				<select name="option" id="option">
+					<option value="1" requiered>Booking</option>
+					<option value="2">Interview</option>
+					<option value="3">Join our crazy team</option>
+				</select>
+				<label for="message">Message:</label>
+				<textarea name="subjet" id="subjet" cols="10" rows="10" placeholder="Enter your message"
+					required></textarea><br>
+				<input type="submit" id="submit" value="send">
+			</form>
+		</div>
+		<!-- modal end -->
+
+
+<script src="./js/app-tour.js"></script>
+<script src="https://kit.fontawesome.com/bb499b2907.js" crossorigin="anonymous"></script>
+</body>
+</html>

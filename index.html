@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="I build solutions and fully responsive websites using the latest trends on design. If you are looking for a fresh web developer, this is your stop.">
+  	<meta name="keywords" content="Frontend, Web, Developer, HTML, CSS, JavaScript">
+  	<meta name="author" content="Wagner Henriquez">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Frontend Web Developer | UI / UX Design | Wagner Henriquez's Portfolio</title>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/fullpage.css">
+	<link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+
+<body>
+<!-- navbar -->
+	<nav class="nav">
+		<a href="#home" class="marca">Wagner Henriquez</a>
+
+		<ul id="menu" class="menu">
+			<li data-menuanchor="home">
+				<a href="#home" class="active">home</a>
+			</li>
+			<li data-menuanchor ="portfolio">
+				<a href="#portfolio">portfolio</a>
+			</li>
+			<li data-menuanchor ="contact">
+				<a href="#contact">contact</a>
+			</li>
+		</ul>
+
+	</nav>
+
+<main id="fullpage">
+<!-- header section -->
+<header class="section header">
+	
+	<div class="container-title">
+		<p class="white-text">Hi, i'm Wagner</p>
+		<h1 class="titulo"><span class="orange-text">I build</span> 
+			<span class="white-text">solutions</span></h1>
+			<p class="white-text">And design things for the web</p>
+	</div>
+	<div class="container-icon">
+		<p><a href="#portfolio" class="white-text"><i class="fas fa-chevron-down"></i></a></p>
+	</div>
+
+	<div class="social">
+		<ul>
+			<li><a href="https://www.linkedin.com/in/wagnerhz/" title="Linkedin Profile"><i class="fab fa-linkedin-in"></i></a></li>
+			<li><a href="https://github.com/wagnerhenriquez" title="Github Repository"><i class="fab fa-github"></i></a></li>
+			<li><a href="http://instagram.com/wagnerghz" title="Instagram Business Profile"><i class="fab fa-instagram"></i></a></li>
+			<li><i class="far fa-envelope"></i></li>
+		</ul>
+	</div>
+
+	<!-- bg video if i needed it :D -->
+	<!-- <video loop muted data-autoplay class="bg-video">
+		<source src="../" type="video/mp4">
+	</video> -->
+
+<form class="contact__form" method="post" action="mail.php">
+
+<!-- form element -->
+<div class="contact" id="contact2">
+	<!-- form message -->
+    <div class="row">
+        <div class="col-12">
+            <div class="contact__msg" style="display: none">
+            <p>Your message was sent successfully.</p>
+            </div>
+        </div>
+    </div>
+<!-- end message -->
+	<div class="close"><i class="fas fa-times x"></i></div>
+			
+	<label for="name">Name:</label>
+	<input type="text" name="name" placeholder="Name" required>
+	<label for="email">Email:</label>
+	<input type="email" name="email" placeholder="Email" required>
+	<label for="subjet">Subject:</label>
+	<select name="subject" type="text" id="subject" required>
+		<option hidden disabled selected>Choose a subject</option>
+		<option value="1" requiered>Booking</option>
+		<option value="2">Interview</option>
+		<option value="3">Join our crazy team</option>
+	</select>
+	<label for="message">Message:</label>
+	<textarea name="message" id="message" rows="6" placeholder="Enter your message" required></textarea>
+    <div class="col-12 form-group">
+    <div class="g-recaptcha" data-sitekey="6LeMlc0UAAAAANfWNgPTm1l5tl0dzhHvNuEFLwPg"></div>
+    </div>
+    <div class="col-12">
+    <input name="submit" type="submit" id="submit" value="Send Message">
+    </div>
+    </div>
+<!-- end form element -->
+</form>
+
+
+</header>	
+<!-- portfolio section -->
+<section class="section item">
+	<!-- first items to show -->
+		<article class="slide">
+
+			<div class="item-info">
+				<p class="model">
+					<span class="orange-text">Some projects</span> <span class="black-text">...</span>
+				</p>
+			</div>
+
+			<div class="portfolio">
+				<div class="portfolio-item">
+					<img src="./media/item1.jpg" alt="Portfolio preview #1">
+					<p class="icon-title">Clean Juicy</p>
+					<div class="portfolio-icons">
+						<a href="https://github.com/wagnerhenriquez/web-development/tree/master/orange" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
+						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+						<a href="./portfolio/orange/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<img src="./media/item2.jpg" alt="Portfolio preview #1">
+					<p class="icon-title">the great escape</p>
+					<div class="portfolio-icons">
+						<a href="https://github.com/wagnerhenriquez/web-development/tree/master/notebook" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
+						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+						<a href="./portfolio/notebook/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+					</div>
+			</div>
+			
+
+		</article>
+
+	<!-- second items to show -->
+
+		<article class="slide">
+
+			<div class="item-info">
+				<p class="model">
+					<span class="orange-text">Some more</span> <span class="black-text">...</span>
+				</p>
+			</div>
+
+			<div class="portfolio">
+				<div class="portfolio-item">
+					<img src="./media/item3.jpg" alt="Portfolio preview #1">
+					<p class="icon-title">rein deer</p>
+					<div class="portfolio-icons">
+						<a href="https://github.com/wagnerhenriquez/web-development/tree/master/reindeer" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
+						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+						<a href="./portfolio/reindeer/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<img src="./media/item4.jpg" alt="Portfolio preview #1">
+					<p class="icon-title">burger town</p>
+					<div class="portfolio-icons">
+						<a href="https://github.com/wagnerhenriquez/burger-town-website" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
+						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+						<a href="./portfolio/burger-app/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+					</div>
+			</div>
+			
+
+		</article>
+
+	<!-- last items to show -->
+
+		<article class="slide">
+
+			<div class="item-info">
+				<p class="model">
+					<span class="black-text">...</span>
+					<span class="orange-text">For now</span> 
+				</p>
+			</div>
+
+			<div class="portfolio">
+				<div class="portfolio-item">
+					<img src="./media/item5.jpg" alt="Portfolio preview #1">
+					<p class="icon-title">aventura jewelers</p>
+					<div class="portfolio-icons">
+						<i class="fab fa-github mini-icon" title="See code on Github"></i>
+						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+						<a href="https://aventurajewelersmrm.com/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+					</div>
+				</div>
+				<div class="portfolio-item">
+					<img src="./media/item6.jpg" alt="Portfolio preview #1">
+					<p class="icon-title">novi b-rex</p>
+					<div class="portfolio-icons">
+						<i class="fab fa-github mini-icon" title="See code on Github"></i>
+						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+						<a href="./portfolio/nike-tribute/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+					</div>
+			</div>
+		</article>
+
+</section>
+
+<footer class="section footer">
+		
+		<h2 orange-text>reach me at</h2>
+		<p class="redes-sociales">
+			<a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+			<a href="#" class="github"><i class="fab fa-github"></i></li></a>
+			<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+			<a href="#" class="gmail"><i class="far fa-envelope"></i></a>
+		</p>
+
+	</footer>
+
+
+</main>
+
+
+
+<script src="./js/fullpage.js"></script>
+<script src="./js/script.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
