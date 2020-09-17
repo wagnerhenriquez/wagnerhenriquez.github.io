@@ -40,10 +40,9 @@
 <header class="section header">
 	
 	<div class="container-title">
-		<p class="white-text">Hi, i'm Wagner</p>
 		<h1 class="titulo"><span class="orange-text">I build</span> 
-			<span class="white-text">solutions</span></h1>
-			<p class="white-text">And design things for the web</p>
+		<span class="white-text">solutions</span></h1>
+		<p class="white-text">And design things for the web</p>
 	</div>
 	<div class="container-icon">
 		<p><a href="#portfolio" class="white-text"><i class="fas fa-chevron-down"></i></a></p>
@@ -54,7 +53,7 @@
 			<li><a href="https://www.linkedin.com/in/wagnerhz/" title="Linkedin Profile"><i class="fab fa-linkedin-in"></i></a></li>
 			<li><a href="https://github.com/wagnerhenriquez" title="Github Repository"><i class="fab fa-github"></i></a></li>
 			<li><a href="http://instagram.com/wagnerghz" title="Instagram Business Profile"><i class="fab fa-instagram"></i></a></li>
-			<li><i class="far fa-envelope"></i></li>
+			<li><a href="#" title="My resume"><i class="far fa-file-alt"></i></a></li>
 		</ul>
 	</div>
 
@@ -63,75 +62,35 @@
 		<source src="../" type="video/mp4">
 	</video> -->
 
-<form class="contact__form" method="post" action="mail.php">
-
-<!-- form element -->
-<div class="contact" id="contact2">
-	<!-- form message -->
-    <div class="row">
-        <div class="col-12">
-            <div class="contact__msg" style="display: none">
-            <p>Your message was sent successfully.</p>
-            </div>
-        </div>
-    </div>
-<!-- end message -->
-	<div class="close"><i class="fas fa-times x"></i></div>
-			
-	<label for="name">Name:</label>
-	<input type="text" name="name" placeholder="Name" required>
-	<label for="email">Email:</label>
-	<input type="email" name="email" placeholder="Email" required>
-	<label for="subjet">Subject:</label>
-	<select name="subject" type="text" id="subject" required>
-		<option hidden disabled selected>Choose a subject</option>
-		<option value="1" requiered>Booking</option>
-		<option value="2">Interview</option>
-		<option value="3">Join our crazy team</option>
-	</select>
-	<label for="message">Message:</label>
-	<textarea name="message" id="message" rows="6" placeholder="Enter your message" required></textarea>
-    <div class="col-12 form-group">
-    <div class="g-recaptcha" data-sitekey="6LeMlc0UAAAAANfWNgPTm1l5tl0dzhHvNuEFLwPg"></div>
-    </div>
-    <div class="col-12">
-    <input name="submit" type="submit" id="submit" value="Send Message">
-    </div>
-    </div>
-<!-- end form element -->
-</form>
-
-
 </header>	
 <!-- portfolio section -->
 <section class="section item">
 	<!-- first items to show -->
-		<article class="slide">
+	<article class="slide">
+		<div class="item-info">
+			<p class="model">
+			<span class="orange-text">Some projects</span> <span class="black-text">...</span>
+			</p>
+		</div>
 
-			<div class="item-info">
-				<p class="model">
-					<span class="orange-text">Some projects</span> <span class="black-text">...</span>
-				</p>
-			</div>
-
-			<div class="portfolio">
+		<div class="portfolio">
 				<div class="portfolio-item">
-					<img src="./media/item1.jpg" alt="Portfolio preview #1">
-					<p class="icon-title">Clean Juicy</p>
-					<div class="portfolio-icons">
-						<a href="https://github.com/wagnerhenriquez/web-development/tree/master/orange" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
-						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
-						<a href="./portfolio/orange/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+				<img src="./media/item1.jpg" alt="Portfolio preview #1">
+				<p class="icon-title">Clean Juicy</p>
+				<div class="portfolio-icons">
+					<a href="https://github.com/wagnerhenriquez/web-development/tree/master/orange" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
+					<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+					<a href="./portfolio/orange/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
 					</div>
 				</div>
 				<div class="portfolio-item">
-					<img src="./media/item2.jpg" alt="Portfolio preview #1">
-					<p class="icon-title">the great escape</p>
-					<div class="portfolio-icons">
-						<a href="https://github.com/wagnerhenriquez/web-development/tree/master/notebook" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
-						<i class="fas fa-search-plus mini-icon" title="See more information"></i>
-						<a href="./portfolio/notebook/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
-					</div>
+				<img src="./media/item2.jpg" alt="Portfolio preview #1">
+				<p class="icon-title">the great escape</p>
+				<div class="portfolio-icons">
+					<a href="https://github.com/wagnerhenriquez/web-development/tree/master/notebook" target="_blank" class="icon"><i class="fab fa-github mini-icon" title="See code on Github"></i></a>
+					<i class="fas fa-search-plus mini-icon" title="See more information"></i>
+					<a href="./portfolio/notebook/" target="_blank" class="icon"><i class="fas fa-desktop mini-icon" title="Launch website"></i></a>
+				</div>
 			</div>
 			
 
@@ -202,6 +161,15 @@
 			</div>
 		</article>
 
+		<!-- intro about me -->
+
+		<article class="slide">
+
+			<div class="about-me">
+				<p><span class="black-text">I'm a bespoke web developer</span> looking to facilitate the creation of modern and aesthetically pleasing websites<span class="black-text">.</span></p>
+			</div>
+		</article>
+
 </section>
 
 <footer class="section footer">
@@ -213,7 +181,44 @@
 			<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
 			<a href="#" class="gmail"><i class="far fa-envelope"></i></a>
 		</p>
+		<form class="contact__form" method="post" action="mail.php">
 
+<!-- form element -->
+<div class="contact" id="contact2">
+	<!-- form message -->
+    <div class="row">
+        <div class="col-12">
+            <div class="contact__msg" style="display: none">
+            <p>Your message was sent successfully.</p>
+            </div>
+        </div>
+    </div>
+<!-- end message -->
+	<div class="close"><i class="fas fa-times x"></i></div>
+			
+	<label for="name">Name:</label>
+	<input type="text" name="name" placeholder="Name" required>
+	<label for="email">Email:</label>
+	<input type="email" name="email" placeholder="Email" required>
+	<label for="subjet">Subject:</label>
+	<select name="subject" type="text" id="subject" required>
+		<option hidden disabled selected>Choose a subject</option>
+		<option value="1" requiered>I need a website / Budget +$300</option>
+		<option value="2">I need a website / Budget +$1000</option>
+		<option value="3">I need a website / Budget +$2500</option>
+		<option value="3">I have a question</option>
+	</select>
+	<label for="message">Message:</label>
+	<textarea name="message" id="message" rows="6" placeholder="Enter your message" required></textarea>
+    <div class="col-12 form-group">
+    <div class="g-recaptcha" data-sitekey="6LeMlc0UAAAAANfWNgPTm1l5tl0dzhHvNuEFLwPg"></div>
+    </div>
+    <div class="col-12">
+    <input name="submit" type="submit" id="submit" value="Send Message">
+    </div>
+    </div>
+<!-- end form element -->
+</form>
 	</footer>
 
 
