@@ -463,6 +463,9 @@ iframe{
 	.about-me {
 		font-size: 1.3rem;
 	}
+	.contact {
+		display: none !important;
+	}
 	
 }
 
