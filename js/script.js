@@ -41,14 +41,17 @@ const seccionesPagina = new fullpage('#fullpage', {
 const mail = document.querySelectorAll('.fa-envelope');
 const close = document.querySelector('.close');
 const contact = document.querySelector('.contact');
+const menu = document.querySelector('.menu');
 
 for (let i = 0; i < mail.length; i++) {
 	mail[i].addEventListener('click', () => {
 		contact.style.display = 'initial';
+		menu.style.display = 'none';
 	})
 }
 close.addEventListener('click', () => {
 	
 	contact.style.display = 'none';
+	menu.style.display = 'flex';
 	
 })
