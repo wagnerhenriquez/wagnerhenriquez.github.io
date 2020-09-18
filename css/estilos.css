@@ -443,6 +443,9 @@ iframe{
 	.icon-title {
 		font-size: .7rem;
 	}
+	.social {
+		display: none;
+	}
 	.contact {
 		display: none !important;
 	}
@@ -462,9 +465,6 @@ iframe{
 	}
 	.about-me {
 		font-size: 1.3rem;
-	}
-	.contact {
-		display: none !important;
 	}
 	
 }
