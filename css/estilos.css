@@ -276,7 +276,7 @@ background-position: center;
 }
 
 .contact{
-	/* height: 60%; */
+	height: auto;
 	background-color: #272231;
 	border: 1px solid;
 	color: #fff;
