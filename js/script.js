@@ -8,7 +8,8 @@ const seccionesPagina = new fullpage('#fullpage', {
 		 scrollingSpeed: 700, // Velocidad del scroll. Valores: en milisegundos.
 		 css3: true, // Si usara CSS3 o javascript.
 		 easingcss3: 'ease-out', // Curva de velocidad del efecto.
-		 loopBottom: false, // Regresa a la primera seccion
+		loopBottom: false, // Regresa a la primera seccion
+		 scrollBar: true,
 		 
 		 
 // ──────────────────────────────────────────────────
