@@ -45,16 +45,17 @@ const menu = document.querySelector('.menu');
 
 
 mail.addEventListener('click', () => {
-		
-		contact.style.display = 'initial';
-		menu.style.display = 'none';
-		
-	})
+	
+  contact.style.display = "initial";
+  menu.style.display = "none";
+
+})
 
 close.addEventListener('click', () => {
 	
 	contact.style.display = 'none';
 	menu.style.display = 'flex';
+	window.location = './#contact';
 	
 })
 

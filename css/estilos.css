@@ -282,7 +282,7 @@ background-position: center;
 	color: #fff;
 	display: none;
 	padding: 20px;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	width: 80%;
 	z-index: 10000;
@@ -333,11 +333,6 @@ iframe{
 /* end modal */
 
 /*footer */
-
-.fp-tableCell, 
-.fp-section.fp-table, .fp-slide.fp-table {
-	height: 100% !important;
-}
 
 .footer .texto-naranja {
 	text-transform: uppercase;
