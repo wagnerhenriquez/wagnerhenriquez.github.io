@@ -334,6 +334,11 @@ iframe{
 
 /*footer */
 
+.fp-tableCell, 
+.fp-section.fp-table, .fp-slide.fp-table {
+	height: 100% !important;
+}
+
 .footer .texto-naranja {
 	text-transform: uppercase;
 	font-size: 60px;
