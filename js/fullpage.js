@@ -327,6 +327,7 @@
                     scrollSettings.element.scrollTo(0, scrollSettings.options);
                 }
             }
+            
         }
 
         /**
