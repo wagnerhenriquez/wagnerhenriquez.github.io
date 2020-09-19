@@ -1,7 +1,7 @@
 const seccionesPagina = new fullpage('#fullpage', {
 	//   :::::: Opciones Basicas
 	// ──────────────────────────────────────────────────
-		 autoScrolling: false, // Se activa el scroll.
+		 autoScrolling: true, // Se activa el scroll.
 		 fitToSection: false, // Acomoda el scroll automaticamente para que la seccion se muestre en pantalla.
 		 fitToSectionDelay: 300, // Delay antes de acomodar la seccion automaticamente.
 		 easing: 'easeInOutCubic', // Funcion de tiempo de la animacion.
