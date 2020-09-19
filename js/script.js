@@ -10,6 +10,7 @@ const seccionesPagina = new fullpage('#fullpage', {
 		 easingcss3: 'ease-out', // Curva de velocidad del efecto.
 		 loopBottom: false, // Regresa a la primera seccion
 		 
+		 
 // ──────────────────────────────────────────────────
 	//   :::::: Barra de navegación
 	// ──────────────────────────────────────────────────
@@ -18,6 +19,7 @@ const seccionesPagina = new fullpage('#fullpage', {
 		 anchors: ['home', 'portfolio', 'contact'], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
 		 navigationTooltips: ['Home', 'Portfolio', 'Contact'], // Tooltips que mostrara por cada boton.
 		 showActiveTooltip: false, // Mostrar tooltip activa.
+		 
 		 // ──────────────────────────────────────────────────
 	//   :::::: Secciones
 	// ──────────────────────────────────────────────────
@@ -33,6 +35,10 @@ const seccionesPagina = new fullpage('#fullpage', {
 		 // 		document.querySelector('.footer h2').style.opacity = 1;
 		 // 	}
 		 // }
+		 scrollOverflowOptions: {
+	        click: false,
+		preventDefaultException: { tagName:/.*/ }
+	}
 
 });
 
@@ -40,20 +46,18 @@ const seccionesPagina = new fullpage('#fullpage', {
 
 const mail = document.querySelector('.fa-envelope');
 const close = document.querySelector('.close');
-const contact = document.querySelector('.contact');
 const menu = document.querySelector('.menu');
 
 
 mail.addEventListener('click', () => {
-	
-  contact.style.display = "initial";
-  menu.style.display = "none";
+
+	menu.style.display = "none";
+	window.location = "./#contact/1";
 
 })
 
 close.addEventListener('click', () => {
 	
-	contact.style.display = 'none';
 	menu.style.display = 'flex';
 	window.location = './#contact';
 	

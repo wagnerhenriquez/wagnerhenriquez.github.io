@@ -280,7 +280,7 @@ background-position: center;
 	background-color: #272231;
 	border: 1px solid;
 	color: #fff;
-	display: none;
+	display: initial;
 	padding: 20px;
 	position: relative;
 	text-align: center;
