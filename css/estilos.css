@@ -55,7 +55,7 @@ a{
 	color: orange;
 }
 
-/*menu*/
+/*navbar menu*/
 
 .nav {
 	position: fixed;
@@ -117,7 +117,7 @@ background-position: center;
 	font-size: 40px;
 	animation: bajar-subir 1s ease infinite;
 }
-/*video de querer*/
+/*video if i needed it*/
 /* .bg-video {
 	position: absolute;
 	z-index: 10;
@@ -161,7 +161,7 @@ background-position: center;
 
 /*item*/
 
-.item article {
+/* .item article {
 	background-position: center;
 	background-size: cover;
 }
@@ -177,7 +177,7 @@ background-position: center;
 }
 .item article:nth-child(4) {
 	background-color: cornflowerblue;
-}
+} */
 
 .item .item-info {
 	margin: 0 30px;
