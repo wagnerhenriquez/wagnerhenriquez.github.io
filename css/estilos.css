@@ -161,7 +161,7 @@ background-position: center;
 
 /*item*/
 
-/* .item article {
+.item article {
 	background-position: center;
 	background-size: cover;
 }
@@ -177,7 +177,7 @@ background-position: center;
 }
 .item article:nth-child(4) {
 	background-color: cornflowerblue;
-} */
+}
 
 .item .item-info {
 	margin: 0 30px;
