@@ -423,9 +423,11 @@ iframe{
 	}
 }
 /* impostor */
-@media all and (max-width: 823px) and (max-height: 440px) {
+/* @media all and (max-width: 823px) and (max-height: 440px) {
 
-	
+	.nav{
+		padding: 15px;
+	}
 	.item .item-info {
 		bottom: 5%;
 	}
@@ -447,7 +449,7 @@ iframe{
 	.contact {
 		display: none !important;
 	}
-}
+} */
 /* impostor arriba */
 @media all and (max-width: 568px) and (max-height: 320px) {
 
