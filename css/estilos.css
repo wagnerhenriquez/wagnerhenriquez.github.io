@@ -395,7 +395,7 @@ iframe{
 	}
 }
 
-@media all and (max-width: 1024px){
+/* @media all and (max-width: 1024px){
 
 	.item .item-info{
 		bottom: 3%;
@@ -409,9 +409,9 @@ iframe{
 	.portfolio-item {
 		margin: 10px 0 15px 0;
 	}
-}
+} */
 
-/* @media all and (max-height: 800px){
+@media all and (max-height: 800px){
 	.portfolio {
 		flex-direction: initial;
 	}
@@ -421,7 +421,7 @@ iframe{
 	.portfolio-item img{
 	width: 400px;
 	}
-} */
+}
 
 @media all and (max-width: 823px) and (max-height: 440px) {
 
