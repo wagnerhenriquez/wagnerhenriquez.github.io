@@ -265,14 +265,6 @@ background-position: center;
 
 /* bug tesging */
 
-.fp-section.fp-table, .fp-slide.fp-table {
-    display: flex;
-    table-layout: unset !important;
-    justify-content: center !important;
-    align-items: center !important;
-    position: relative;
-    top: 10%;
-}
 
 /* contact modal */
 .row {
