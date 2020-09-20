@@ -469,7 +469,7 @@ iframe{
 	
 }
 
-@media all and (max-width: 768px) {
+/* @media all and (max-width: 768px) {
 	.menu li a, 
 	.menu li.active a{
 		font-size: 18px;
@@ -500,9 +500,9 @@ iframe{
 	.footer .texto-naranja {
 		font-size: 40px;
 	}
-}
+} */
 
-/* @media screen and (max-width: 576px){
+@media screen and (max-width: 576px){
 	.header .titulo {
 		font-size: 50px;
 	}
@@ -526,7 +526,7 @@ iframe{
 		left: 25px;
 
 	}
-} */
+}
 
 @media all and (max-width: 450px){
 	.nav {
