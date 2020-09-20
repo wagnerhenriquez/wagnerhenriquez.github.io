@@ -281,9 +281,9 @@ background-position: center;
 	background-color: #272231;
 	border: 1px solid;
 	color: #fff;
-	display: initial;
+	display: none;
 	padding: 20px;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	width: 80%;
 	z-index: 10000;	
@@ -442,6 +442,9 @@ iframe{
 	}
 	.social {
 		display: none;
+	}
+	.gmail {
+		display: none !important;
 	}
 }
 /* impostor arriba */

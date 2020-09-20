@@ -43,20 +43,18 @@ const seccionesPagina = new fullpage('#fullpage', {
 
 const mail = document.querySelector('.fa-envelope');
 const close = document.querySelector('.close');
-const menu = document.querySelector('.menu');
+const contact = document.querySelector('.contact');
 
 
 mail.addEventListener('click', () => {
 
-	menu.style.display = "none";
-	window.location = "./#contact/1";
+	contact.style.display = "initial";
 
 })
 
 close.addEventListener('click', () => {
 	
-	menu.style.display = 'flex';
-	window.location = './#contact';
+	contact.style.display = 'none';
 	
 })
 
