@@ -275,7 +275,7 @@ background-position: center;
     /* padding: 20px; */
 }
 
-.contact{
+/* .contact{
 	height: auto;
 	background-color: #272231;
 	border: 1px solid;
@@ -285,9 +285,8 @@ background-position: center;
 	position: relative;
 	text-align: center;
 	width: 80%;
-	z-index: 10000;
-	
-}
+	z-index: 10000;	
+} */
 
 .close{
 	font-size: 3rem;

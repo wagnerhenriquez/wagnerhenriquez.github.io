@@ -36,10 +36,6 @@ const seccionesPagina = new fullpage('#fullpage', {
 		 // 		document.querySelector('.footer h2').style.opacity = 1;
 		 // 	}
 		 // }
-		 scrollOverflowOptions: {
-	        click: false,
-		preventDefaultException: { tagName:/.*/ }
-	}
 
 });
 
