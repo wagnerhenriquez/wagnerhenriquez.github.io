@@ -1,3 +1,7 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap');
+
 /* general settings */
 
 *{ 
@@ -109,13 +113,15 @@ background-position: center;
 	font-size: 70px;
 	text-transform: uppercase;
 }
+
 .header .container-icon{
-	position: absolute;
-	z-index: 99;
-	bottom: 3%;
-	left: 50%;
-	font-size: 40px;
-	animation: bajar-subir 1s ease infinite;
+	position: relative;
+    z-index: 99;
+    font-size: 40px;
+    animation: bajar-subir 1s ease infinite;
+    display: flex;
+    justify-content: center;
+    top: 30%;
 }
 /*video if i needed it*/
 /* .bg-video {
@@ -265,7 +271,6 @@ background-position: center;
 
 /* bug tesging */
 
-
 /* contact modal */
 .row {
 	background: #000;
@@ -310,9 +315,21 @@ input, select{
 	padding: 5px;
 }
 select{
+
+	appearance: none;
+	background: url(../media/chevron_down-white.webp) no-repeat;
 	background-color: #3e374e !important;
-	
+	background-position: right center;
+	background-size: contain;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	-moz-appearance: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-appearance: none; 
 }
+
 textarea{
 	width: 100%;
 	padding: 5px;
@@ -422,11 +439,14 @@ iframe{
 	width: 400px;
 	}
 }
-/* impostor */
+/* side */
 @media all and (max-width: 823px) and (max-height: 440px) {
 
 	.nav{
 		padding: 0px;
+	}
+	.header .container-icon{
+		top: 22%;
 	}
 	.item .model  {
 		font-size: 2rem;
@@ -447,7 +467,12 @@ iframe{
 		display: none !important;
 	}
 }
-/* impostor arriba */
+@media all and (max-width: 640px) and (max-height: 360px) {
+
+	.header .container-icon{
+	top: 10%;
+	}
+}
 @media all and (max-width: 568px) and (max-height: 320px) {
 
 	.portfolio-item {
