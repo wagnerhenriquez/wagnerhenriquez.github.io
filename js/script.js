@@ -39,12 +39,19 @@ const seccionesPagina = new fullpage('#fullpage', {
 
 });
 
-//toggle mailto
+//selectors
 
 const mail = document.querySelector('.fa-envelope');
 const close = document.querySelector('.close');
 const contact = document.querySelector('.contact');
+const preview1 = document.getElementById('preview1')
+const preview2 = document.getElementById('preview2')
+const preview3 = document.getElementById('preview3')
+const preview4 = document.getElementById('preview4')
+const preview5 = document.getElementById('preview5')
+const preview6 = document.getElementById('preview6')
 
+//toggle mailto
 
 mail.addEventListener('click', () => {
 
@@ -58,3 +65,24 @@ close.addEventListener('click', () => {
 	
 })
 
+function iOS() {
+	return [
+		'iPad Simulator',
+		'iPhone Simulator',
+		'iPod Simulator',
+		'iPad',
+		'iPhone',
+		'iPod'
+	].includes(navigator.platform)
+		// iPad on iOS 13 detection
+		|| (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
+
+if (iOS() === true) {
+	preview1.src = './media/item1.jpg';
+	preview2.src = './media/item2.jpg';
+	preview3.src = './media/item3.jpg';
+	preview4.src = './media/item4.jpg';
+	preview5.src = './media/item5.jpg';
+	preview6.src = './media/item6.jpg';
+}

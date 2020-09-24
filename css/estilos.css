@@ -307,12 +307,17 @@ form{
 	flex-direction: column;
 }
 input, select{
-	width: 100%;
-	height: 50px;
 	background: rgba(196, 175, 239, 0.15);
-	color: #fff;
 	border: none;
+	color: #fff;
+	cursor: pointer;
+	height: 50px;
 	padding: 5px;
+	width: 100%;
+	-moz-appearance: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-appearance: none; 
 }
 select{
 
@@ -323,11 +328,7 @@ select{
 	background-size: contain;
 	border-radius: 3px;
 	color: #fff;
-	cursor: pointer;
-	-moz-appearance: none;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-webkit-appearance: none; 
+	
 }
 
 textarea{
