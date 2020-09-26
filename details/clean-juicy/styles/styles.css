@@ -1,0 +1,123 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap');
+
+/* general settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* navbar */
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo, .goback {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #c2c2c2;
+}
+
+/* title section */
+
+.section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+span {
+    color: orange;
+    font-size: 3rem;
+}
+
+/* info section */
+
+.info {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.info h2 {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+.services ul li {
+    padding: 5px 0;
+}
+button {
+    border: 3px solid #000;
+    background: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .4s ease;
+    padding: 10px;
+    width: 200px;
+}
+button:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* text section */
+
+.text {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* img section */
+
+.img {
+
+}
+
+.img img {
+    width: 100%;
+}
+/* medias */
+
+@media all and (max-width: 640px) {
+    .info {
+        display: block;
+        font-size: .8rem;
+        text-align: left;
+    }
+    button {
+        margin-top: 15px;
+    }
+    .text {
+        width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+}

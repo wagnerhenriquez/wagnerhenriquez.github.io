@@ -22,7 +22,7 @@ a{
 .wrapper{
 	background: #8C6C79;
 	width: 100%;
-	height: 100vh;
+	height: 100vh !important;
 	position: absolute;
 	z-index: 2;
 	animation: abreycierra 1.2s linear;
@@ -1021,7 +1021,7 @@ label{
 		bottom: 280px;
 	}
 	.scrolldown{
-		left: -80px;
+		left: -50px;
 	}
 	.playlist{
 		right: 80px;
@@ -1034,8 +1034,8 @@ label{
 	.mini-texto{
 		display: none;
 	}
-	.scrolldown{
-		display: none;
+	.playlist{
+		right: 40px;
 	}
 }
 @media all and (max-width: 320px){
@@ -1050,8 +1050,11 @@ label{
 		font-size: 1.5rem;
 	}
 	.playlist{
-		right: 39px;
+		right: 15px;
 	}
+	.scrolldown {
+    left: -70px;
+}
 	.img02{
 		width: 275px;
 		left: 30px;

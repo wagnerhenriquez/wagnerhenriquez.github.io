@@ -392,7 +392,7 @@ footer{
 /*media*/
 @media all and (max-width: 1560px){
   .arrows, .down{
-    top: 80% !important;
+    top: 80%;
   }
   @keyframes arrow{
     0%{
@@ -489,7 +489,7 @@ footer{
   #nav-bar {
     font-size: .8rem;
   }.arrows, .down {
-    top: 85% !important;
+    top: 85%;
   }
   .arrows  {
     left: 80%;
@@ -505,7 +505,7 @@ footer{
     margin-top: 300px;
   }
   .par {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .par p {
     font-size: 1rem;

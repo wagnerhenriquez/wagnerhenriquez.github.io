@@ -37,9 +37,13 @@ a{
 	display: inline-block;
 	padding: 10px;
 }
-.menu-lateral{
-	/*display: flex;
-	padding: 10px;*/
+/* .menu-lateral{
+	display: flex;
+	padding: 10px;
+} */
+
+section {
+
 }
 
 .title{
@@ -408,9 +412,7 @@ a{
 	}
 }
 @media all and (max-width: 823px){
-	body{
-		height: 750px;
-	}
+
 	.title h1{
 		font-size: 8rem;
 	}
@@ -456,7 +458,7 @@ a{
 	}
 	.title .parrafo-dos{
 		font-size: 1.5rem;
-		bottom: -215px;
+		bottom: -195px;
 	}
 	.title .boton{
 		left: 210px;
@@ -509,11 +511,9 @@ a{
 }
 	.title .parrafo-dos{
 		font-size: 1.2rem;
-		bottom: -250px;
+		bottom: -190px;
 	}
 	.title .parrafo-tres{
-		right: 10px;
-		bottom: -335px;
 		width: 250px;
 	}
 	.menu-wrap .menu > div > div ul > li{
@@ -524,10 +524,18 @@ a{
 	.flecha-izq, .flecha-der{
 		top: 75%;
 	}
+	.title .parrafo-tres {
+    	display: none;
+		}
+		.title .parrafo-dos {
+		font-size: 1.2rem;
+		bottom: -200px;
+		}
+	}
 }
 @media all and (max-width: 320px){
 	.flecha-izq, .flecha-der{
-		top: 85%;
-	}
-	}
+		top: 80%;
+		}
+	
 }

@@ -1,3 +1,56 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap');
+
+/* general settings */
+
+*{ 
+box-sizing: border-box;
+margin: 0; padding: 0; 
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	margin-bottom: 0;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+	color: orange;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	color: #fff;
+}
+
+.icon {
+	color: #000;
+}
+
+.orange-text {
+	font-weight: 300;
+	color: orange;
+}
+.white-text {
+	font-weight: 700;
+	color: #fff;
+}
+.black-text {
+	color: #000;
+}
+/*fullpage.js clases*/
+
 /* fullpage css */
 html.fp-enabled,
 .fp-enabled body {
@@ -228,60 +281,6 @@ html.fp-enabled,
 }
 
 /* end fullpage css */
-
-
-/* import fonts */
-
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap');
-
-/* general settings */
-
-*{ 
-box-sizing: border-box;
-margin: 0; padding: 0; 
-}
-
-body {
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-	margin-bottom: 0;
-}
-h2 {
-	text-transform: uppercase;
-	font-size: 60px;
-	letter-spacing: 2px;
-	margin-bottom: 40px;
-	color: orange;
-}
-
-ul{
-	list-style: none;
-}
-
-a{
-	color: #fff;
-}
-
-.icon {
-	color: #000;
-}
-
-.orange-text {
-	font-weight: 300;
-	color: orange;
-}
-.white-text {
-	font-weight: 700;
-	color: #fff;
-}
-.black-text {
-	color: #000;
-}
-/*fullpage.js clases*/
 
 #fp-nav ul li a span {
 	background: orange;
@@ -576,11 +575,6 @@ input::placeholder, textarea::placeholder{
 label{
 	padding: 5px;
 }
-/*
-iframe{
-
-} */
-/* end modal */
 
 /*footer */
 
